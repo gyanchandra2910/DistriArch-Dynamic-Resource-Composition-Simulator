@@ -1,0 +1,15 @@
+{
+  "implementation": "C++20",
+  "passed": 25,
+  "failed": 0,
+  "cli_api_exact": true,
+  "port": 8001,
+  "health": {
+    "implementation": "C++20",
+    "model": "synthetic discrete-event architectural simulation",
+    "status": "ok",
+    "trace_schema": "event-boundaries-v1",
+    "version": "3.0.0"
+  },
+  "portable_executable": true
+}

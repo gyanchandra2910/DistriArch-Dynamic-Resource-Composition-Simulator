@@ -1,0 +1,50 @@
+{
+  "policy": {
+    "policies": 3,
+    "custom_rate": 777,
+    "fingerprints": [
+      "e842635e4f983348",
+      "adaa0865a7d5ca53"
+    ],
+    "passed": true
+  },
+  "commit": {
+    "before": 139,
+    "commit": 140,
+    "time": 0.512492954441392,
+    "passed": true
+  },
+  "boundaries": {
+    "discovery": 45,
+    "release": 1284,
+    "speeds": 4,
+    "export_unchanged": true,
+    "passed": true
+  },
+  "stale": {
+    "late_validation": true,
+    "late_default_config": true,
+    "late_run": true,
+    "late_comparison": true,
+    "passed": true
+  },
+  "controls": {
+    "run_pause_step_resume_reset": true,
+    "comparison": true,
+    "config_export": true,
+    "result_export_unchanged": true,
+    "event_count": 1286,
+    "makespan": 12.316232899534997,
+    "passed": true
+  },
+  "visual": {
+    "desktop": "1366x900",
+    "narrow": "390x844",
+    "body_width": 385,
+    "scroll_width": 385,
+    "table_content": 557,
+    "table_viewport": 305,
+    "charts_settled": true,
+    "console_errors": 0
+  }
+}

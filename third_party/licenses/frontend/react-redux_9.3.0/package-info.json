@@ -1,0 +1,6 @@
+{
+  "name": "react-redux",
+  "version": "9.3.0",
+  "license": "MIT",
+  "repository": "github:reduxjs/react-redux"
+}

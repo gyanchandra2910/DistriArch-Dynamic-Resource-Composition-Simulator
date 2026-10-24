@@ -1,0 +1,19 @@
+{
+  "language": "C++20",
+  "compiler": "GCC 16.2.0 (MSYS2 MinGW-w64)",
+  "zlib": "1.3.2",
+  "vendored": [
+    {
+      "file": "httplib.h",
+      "sha256": "aa14e7e7bd2703694e0a6b6855af3b8c406102ab1fc56ac905fe33619b31faa5"
+    },
+    {
+      "file": "picosha2.h",
+      "sha256": "b13c180161ffac8d0adc81e033e493c409457c4d1258ab9781ac80579ba3bdd8"
+    },
+    {
+      "file": "json.hpp",
+      "sha256": "9bea4c8066ef4a1c206b2be5a36302f8926f7fdc6087af5d20b417d0cf103ea6"
+    }
+  ]
+}

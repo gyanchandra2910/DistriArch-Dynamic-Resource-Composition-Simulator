@@ -1,0 +1,9 @@
+{
+  "name": "d3-path",
+  "version": "3.1.0",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-path.git"
+  }
+}

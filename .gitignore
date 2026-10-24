@@ -1,0 +1,66 @@
+# Installed dependencies and generated dashboard
+node_modules/
+/frontend/dist/
+.pnpm-store/
+
+# Native build outputs (build locally from the checked-in sources)
+/build/
+/build-*/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.exe
+*.dll
+*.so
+*.so.*
+*.dylib
+*.a
+*.lib
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+
+# Local archives, package verification and temporary work
+/tmp/
+*.zip
+*.7z
+*.rar
+/*.verification.json
+*.log
+*.tmp
+*.bak
+*.tsbuildinfo
+
+# Retired Python runtime and interpreter caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+.aws/
+.ssh/
+.codex/
+.npmrc
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.vs/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+
+# Keep results/traces/*.json.gz: these are verified experiment data.

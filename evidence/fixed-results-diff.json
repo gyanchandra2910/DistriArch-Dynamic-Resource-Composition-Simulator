@@ -1,0 +1,899 @@
+{
+  "runs": 81,
+  "changed_makespans": 30,
+  "changes": [
+    {
+      "key": "main/steady/11/static",
+      "before": 9.24973555256485,
+      "after": 9.24973555256485,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/steady/11/demand",
+      "before": 9.33578221055096,
+      "after": 9.33578221055096,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/steady/11/cost",
+      "before": 9.33578221055096,
+      "after": 9.33578221055096,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/steady/29/static",
+      "before": 9.410577932564854,
+      "after": 9.410577932564854,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/steady/29/demand",
+      "before": 9.496624590550965,
+      "after": 9.496624590550965,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/steady/29/cost",
+      "before": 9.496624590550965,
+      "after": 9.496624590550965,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/steady/47/static",
+      "before": 9.080839612564851,
+      "after": 9.080839612564851,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/steady/47/demand",
+      "before": 9.166886270550961,
+      "after": 9.166886270550961,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/steady/47/cost",
+      "before": 9.166886270550961,
+      "after": 9.166886270550961,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/phases/11/static",
+      "before": 14.619316008265155,
+      "after": 14.619316008265155,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/phases/11/demand",
+      "before": 12.305824001965552,
+      "after": 12.316232899534997,
+      "delta": 0.01040889756944452,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "main/phases/11/cost",
+      "before": 12.305824001965552,
+      "after": 12.316232899534997,
+      "delta": 0.01040889756944452,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "main/phases/29/static",
+      "before": 14.6816826915985,
+      "after": 14.6816826915985,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/phases/29/demand",
+      "before": 12.358771009976476,
+      "after": 12.36917990754592,
+      "delta": 0.01040889756944452,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "main/phases/29/cost",
+      "before": 12.358771009976476,
+      "after": 12.36917990754592,
+      "delta": 0.01040889756944452,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "main/phases/47/static",
+      "before": 14.543714441598489,
+      "after": 14.543714441598489,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/phases/47/demand",
+      "before": 12.23833343443083,
+      "after": 12.248742332000274,
+      "delta": 0.01040889756944452,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "main/phases/47/cost",
+      "before": 12.23833343443083,
+      "after": 12.248742332000274,
+      "delta": 0.01040889756944452,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "main/concurrent/11/static",
+      "before": 10.015832268666616,
+      "after": 10.015832268666616,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/concurrent/11/demand",
+      "before": 10.5997695174772,
+      "after": 10.5997695174772,
+      "delta": 0,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "main/concurrent/11/cost",
+      "before": 9.284898252511159,
+      "after": 9.284898252511159,
+      "delta": 0,
+      "old_reconfigurations": 2,
+      "new_reconfigurations": 2
+    },
+    {
+      "key": "main/concurrent/29/static",
+      "before": 10.035108965739074,
+      "after": 10.035108965739074,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/concurrent/29/demand",
+      "before": 10.467843599143869,
+      "after": 10.467843599143869,
+      "delta": 0,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "main/concurrent/29/cost",
+      "before": 9.124643913225446,
+      "after": 9.124643913225446,
+      "delta": 0,
+      "old_reconfigurations": 2,
+      "new_reconfigurations": 2
+    },
+    {
+      "key": "main/concurrent/47/static",
+      "before": 9.984595891999952,
+      "after": 9.984595891999952,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/concurrent/47/demand",
+      "before": 10.503978470810535,
+      "after": 10.503978470810535,
+      "delta": 0,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "main/concurrent/47/cost",
+      "before": 9.16955835251116,
+      "after": 9.16955835251116,
+      "delta": 0,
+      "old_reconfigurations": 2,
+      "new_reconfigurations": 2
+    },
+    {
+      "key": "main/constrained/11/static",
+      "before": 14.619439434914462,
+      "after": 14.619439434914462,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/constrained/11/demand",
+      "before": 15.773072537121813,
+      "after": 15.783551964205145,
+      "delta": 0.010479427083332382,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "main/constrained/11/cost",
+      "before": 12.247760843334603,
+      "after": 12.247760843334603,
+      "delta": 0,
+      "old_reconfigurations": 1,
+      "new_reconfigurations": 1
+    },
+    {
+      "key": "main/constrained/29/static",
+      "before": 14.681806118247806,
+      "after": 14.681806118247806,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/constrained/29/demand",
+      "before": 15.834624210931347,
+      "after": 15.84510363801468,
+      "delta": 0.010479427083332382,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "main/constrained/29/cost",
+      "before": 12.310127526667946,
+      "after": 12.310127526667946,
+      "delta": 0,
+      "old_reconfigurations": 1,
+      "new_reconfigurations": 1
+    },
+    {
+      "key": "main/constrained/47/static",
+      "before": 14.543837868247795,
+      "after": 14.543837868247795,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/constrained/47/demand",
+      "before": 15.696977303788481,
+      "after": 15.707456730871813,
+      "delta": 0.010479427083332382,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "main/constrained/47/cost",
+      "before": 12.172159276667935,
+      "after": 12.172159276667935,
+      "delta": 0,
+      "old_reconfigurations": 1,
+      "new_reconfigurations": 1
+    },
+    {
+      "key": "main/expensive/11/static",
+      "before": 10.524330869806537,
+      "after": 10.524330869806537,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/expensive/11/demand",
+      "before": 23.745414804127083,
+      "after": 23.791943059335438,
+      "delta": 0.04652825520835435,
+      "old_reconfigurations": 4,
+      "new_reconfigurations": 5
+    },
+    {
+      "key": "main/expensive/11/cost",
+      "before": 10.311387727445421,
+      "after": 10.337054784737088,
+      "delta": 0.02566705729166685,
+      "old_reconfigurations": 1,
+      "new_reconfigurations": 2
+    },
+    {
+      "key": "main/expensive/29/static",
+      "before": 10.52689584647321,
+      "after": 10.52689584647321,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/expensive/29/demand",
+      "before": 23.74728262269851,
+      "after": 23.793810877906864,
+      "delta": 0.04652825520835435,
+      "old_reconfigurations": 4,
+      "new_reconfigurations": 5
+    },
+    {
+      "key": "main/expensive/29/cost",
+      "before": 10.305342612966257,
+      "after": 10.331009670257924,
+      "delta": 0.02566705729166685,
+      "old_reconfigurations": 1,
+      "new_reconfigurations": 2
+    },
+    {
+      "key": "main/expensive/47/static",
+      "before": 10.363029446473202,
+      "after": 10.363029446473202,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "main/expensive/47/demand",
+      "before": 23.578016863859215,
+      "after": 23.62454511906757,
+      "delta": 0.04652825520835435,
+      "old_reconfigurations": 4,
+      "new_reconfigurations": 5
+    },
+    {
+      "key": "main/expensive/47/cost",
+      "before": 10.15869639525792,
+      "after": 10.184363452549587,
+      "delta": 0.02566705729166685,
+      "old_reconfigurations": 1,
+      "new_reconfigurations": 2
+    },
+    {
+      "key": "sensitivity/backbone-24-MiBs/11/static",
+      "before": 14.619439434914462,
+      "after": 14.619439434914462,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "sensitivity/backbone-24-MiBs/11/demand",
+      "before": 15.773072537121813,
+      "after": 15.783551964205145,
+      "delta": 0.010479427083332382,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-24-MiBs/11/cost",
+      "before": 12.247760843334603,
+      "after": 12.247760843334603,
+      "delta": 0,
+      "old_reconfigurations": 1,
+      "new_reconfigurations": 1
+    },
+    {
+      "key": "sensitivity/backbone-24-MiBs/29/static",
+      "before": 14.681806118247806,
+      "after": 14.681806118247806,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "sensitivity/backbone-24-MiBs/29/demand",
+      "before": 15.834624210931347,
+      "after": 15.84510363801468,
+      "delta": 0.010479427083332382,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-24-MiBs/29/cost",
+      "before": 12.310127526667946,
+      "after": 12.310127526667946,
+      "delta": 0,
+      "old_reconfigurations": 1,
+      "new_reconfigurations": 1
+    },
+    {
+      "key": "sensitivity/backbone-24-MiBs/47/static",
+      "before": 14.543837868247795,
+      "after": 14.543837868247795,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "sensitivity/backbone-24-MiBs/47/demand",
+      "before": 15.696977303788481,
+      "after": 15.707456730871813,
+      "delta": 0.010479427083332382,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-24-MiBs/47/cost",
+      "before": 12.172159276667935,
+      "after": 12.172159276667935,
+      "delta": 0,
+      "old_reconfigurations": 1,
+      "new_reconfigurations": 1
+    },
+    {
+      "key": "sensitivity/backbone-90-MiBs/11/static",
+      "before": 14.619334996980434,
+      "after": 14.619334996980434,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "sensitivity/backbone-90-MiBs/11/demand",
+      "before": 12.839246853528051,
+      "after": 12.858273980264162,
+      "delta": 0.019027126736110844,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-90-MiBs/11/cost",
+      "before": 12.839246853528051,
+      "after": 12.858273980264162,
+      "delta": 0.019027126736110844,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-90-MiBs/29/static",
+      "before": 14.681701680313777,
+      "after": 14.681701680313777,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "sensitivity/backbone-90-MiBs/29/demand",
+      "before": 12.909405905809807,
+      "after": 12.919825654073696,
+      "delta": 0.010419748263888806,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-90-MiBs/29/cost",
+      "before": 12.909405905809807,
+      "after": 12.919825654073696,
+      "delta": 0.010419748263888806,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-90-MiBs/47/static",
+      "before": 14.543733430313766,
+      "after": 14.543733430313766,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "sensitivity/backbone-90-MiBs/47/demand",
+      "before": 12.763151620194717,
+      "after": 12.773571368458606,
+      "delta": 0.010419748263888806,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-90-MiBs/47/cost",
+      "before": 12.763151620194717,
+      "after": 12.773571368458606,
+      "delta": 0.010419748263888806,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-360-MiBs/11/static",
+      "before": 14.619306513907517,
+      "after": 14.619306513907517,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "sensitivity/backbone-360-MiBs/11/demand",
+      "before": 12.053317838771122,
+      "after": 12.063721310993344,
+      "delta": 0.010403472222222376,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-360-MiBs/11/cost",
+      "before": 12.053317838771122,
+      "after": 12.063721310993344,
+      "delta": 0.010403472222222376,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-360-MiBs/29/static",
+      "before": 14.681673197240862,
+      "after": 14.681673197240862,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "sensitivity/backbone-360-MiBs/29/demand",
+      "before": 12.109267559455654,
+      "after": 12.119671031677877,
+      "delta": 0.010403472222222376,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-360-MiBs/29/cost",
+      "before": 12.109267559455654,
+      "after": 12.119671031677877,
+      "delta": 0.010403472222222376,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-360-MiBs/47/static",
+      "before": 14.543704947240851,
+      "after": 14.543704947240851,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "sensitivity/backbone-360-MiBs/47/demand",
+      "before": 11.96861929597598,
+      "after": 11.979022768198204,
+      "delta": 0.010403472222224153,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "sensitivity/backbone-360-MiBs/47/cost",
+      "before": 11.96861929597598,
+      "after": 11.979022768198204,
+      "delta": 0.010403472222224153,
+      "old_reconfigurations": 3,
+      "new_reconfigurations": 3
+    },
+    {
+      "key": "ablation/idealized-zero-reconfiguration/11/static",
+      "before": 10.524330869806537,
+      "after": 10.524330869806537,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "ablation/idealized-zero-reconfiguration/11/demand",
+      "before": 8.523509837609103,
+      "after": 8.523509837609103,
+      "delta": 0,
+      "old_reconfigurations": 4,
+      "new_reconfigurations": 5
+    },
+    {
+      "key": "ablation/idealized-zero-reconfiguration/11/cost",
+      "before": 10.208188377753583,
+      "after": 10.208188377753583,
+      "delta": 0,
+      "old_reconfigurations": 4,
+      "new_reconfigurations": 5
+    },
+    {
+      "key": "ablation/idealized-zero-reconfiguration/29/static",
+      "before": 10.52689584647321,
+      "after": 10.52689584647321,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "ablation/idealized-zero-reconfiguration/29/demand",
+      "before": 8.525377656180531,
+      "after": 8.525377656180531,
+      "delta": 0,
+      "old_reconfigurations": 4,
+      "new_reconfigurations": 5
+    },
+    {
+      "key": "ablation/idealized-zero-reconfiguration/29/cost",
+      "before": 10.197544253467873,
+      "after": 10.197544253467873,
+      "delta": 0,
+      "old_reconfigurations": 4,
+      "new_reconfigurations": 5
+    },
+    {
+      "key": "ablation/idealized-zero-reconfiguration/47/static",
+      "before": 10.363029446473202,
+      "after": 10.363029446473202,
+      "delta": 0,
+      "old_reconfigurations": 0,
+      "new_reconfigurations": 0
+    },
+    {
+      "key": "ablation/idealized-zero-reconfiguration/47/demand",
+      "before": 8.356111897341247,
+      "after": 8.356111897341247,
+      "delta": 0,
+      "old_reconfigurations": 4,
+      "new_reconfigurations": 5
+    },
+    {
+      "key": "ablation/idealized-zero-reconfiguration/47/cost",
+      "before": 9.979864676042274,
+      "after": 9.979864676042274,
+      "delta": 0,
+      "old_reconfigurations": 4,
+      "new_reconfigurations": 5
+    }
+  ],
+  "aggregate": [
+    {
+      "group": "ablation",
+      "variant": "idealized-zero-reconfiguration",
+      "policy": "cost",
+      "mean": 10.128532435754577,
+      "mean_improvement_pct": 3.2766694323510897,
+      "mean_reconfigurations": 5,
+      "before_mean": 10.128532435754577
+    },
+    {
+      "group": "ablation",
+      "variant": "idealized-zero-reconfiguration",
+      "policy": "demand",
+      "mean": 8.46833313037696,
+      "mean_improvement_pct": 19.130295939458673,
+      "mean_reconfigurations": 5,
+      "before_mean": 8.46833313037696
+    },
+    {
+      "group": "ablation",
+      "variant": "idealized-zero-reconfiguration",
+      "policy": "static",
+      "mean": 10.471418720917649,
+      "mean_improvement_pct": 0,
+      "mean_reconfigurations": 0,
+      "before_mean": 10.471418720917649
+    },
+    {
+      "group": "main",
+      "variant": "concurrent",
+      "policy": "cost",
+      "mean": 9.193033506082587,
+      "mean_improvement_pct": 8.177844224981808,
+      "mean_reconfigurations": 2,
+      "before_mean": 9.193033506082587
+    },
+    {
+      "group": "main",
+      "variant": "concurrent",
+      "policy": "demand",
+      "mean": 10.523863862477201,
+      "mean_improvement_pct": -5.114729143290732,
+      "mean_reconfigurations": 3,
+      "before_mean": 10.523863862477201
+    },
+    {
+      "group": "main",
+      "variant": "concurrent",
+      "policy": "static",
+      "mean": 10.01184570880188,
+      "mean_improvement_pct": 0,
+      "mean_reconfigurations": 0,
+      "before_mean": 10.01184570880188
+    },
+    {
+      "group": "main",
+      "variant": "constrained",
+      "policy": "cost",
+      "mean": 12.243349215556828,
+      "mean_improvement_pct": 16.227912623042155,
+      "mean_reconfigurations": 1,
+      "before_mean": 12.243349215556828
+    },
+    {
+      "group": "main",
+      "variant": "constrained",
+      "policy": "demand",
+      "mean": 15.778704111030544,
+      "mean_improvement_pct": -7.962311813445446,
+      "mean_reconfigurations": 3,
+      "before_mean": 15.768224683947212
+    },
+    {
+      "group": "main",
+      "variant": "constrained",
+      "policy": "static",
+      "mean": 14.61502780713669,
+      "mean_improvement_pct": 0,
+      "mean_reconfigurations": 0,
+      "before_mean": 14.61502780713669
+    },
+    {
+      "group": "main",
+      "variant": "expensive",
+      "policy": "cost",
+      "mean": 10.2841426358482,
+      "mean_improvement_pct": 1.7881151903703862,
+      "mean_reconfigurations": 2,
+      "before_mean": 10.258475578556533
+    },
+    {
+      "group": "main",
+      "variant": "expensive",
+      "policy": "demand",
+      "mean": 23.73676635210329,
+      "mean_improvement_pct": -126.68810772920779,
+      "mean_reconfigurations": 5,
+      "before_mean": 23.690238096894934
+    },
+    {
+      "group": "main",
+      "variant": "expensive",
+      "policy": "static",
+      "mean": 10.471418720917649,
+      "mean_improvement_pct": 0,
+      "mean_reconfigurations": 0,
+      "before_mean": 10.471418720917649
+    },
+    {
+      "group": "main",
+      "variant": "phases",
+      "policy": "cost",
+      "mean": 12.311385046360398,
+      "mean_improvement_pct": 15.76148627055457,
+      "mean_reconfigurations": 3,
+      "before_mean": 12.300976148790951
+    },
+    {
+      "group": "main",
+      "variant": "phases",
+      "policy": "demand",
+      "mean": 12.311385046360398,
+      "mean_improvement_pct": 15.76148627055457,
+      "mean_reconfigurations": 3,
+      "before_mean": 12.300976148790951
+    },
+    {
+      "group": "main",
+      "variant": "phases",
+      "policy": "static",
+      "mean": 14.614904380487381,
+      "mean_improvement_pct": 0,
+      "mean_reconfigurations": 0,
+      "before_mean": 14.614904380487381
+    },
+    {
+      "group": "main",
+      "variant": "steady",
+      "policy": "cost",
+      "mean": 9.333097690550963,
+      "mean_improvement_pct": -0.9307281904899766,
+      "mean_reconfigurations": 0,
+      "before_mean": 9.333097690550963
+    },
+    {
+      "group": "main",
+      "variant": "steady",
+      "policy": "demand",
+      "mean": 9.333097690550963,
+      "mean_improvement_pct": -0.9307281904899766,
+      "mean_reconfigurations": 0,
+      "before_mean": 9.333097690550963
+    },
+    {
+      "group": "main",
+      "variant": "steady",
+      "policy": "static",
+      "mean": 9.247051032564853,
+      "mean_improvement_pct": 0,
+      "mean_reconfigurations": 0,
+      "before_mean": 9.247051032564853
+    },
+    {
+      "group": "sensitivity",
+      "variant": "backbone-24-MiBs",
+      "policy": "cost",
+      "mean": 12.243349215556828,
+      "mean_improvement_pct": 16.227912623042155,
+      "mean_reconfigurations": 1,
+      "before_mean": 12.243349215556828
+    },
+    {
+      "group": "sensitivity",
+      "variant": "backbone-24-MiBs",
+      "policy": "demand",
+      "mean": 15.778704111030544,
+      "mean_improvement_pct": -7.962311813445446,
+      "mean_reconfigurations": 3,
+      "before_mean": 15.768224683947212
+    },
+    {
+      "group": "sensitivity",
+      "variant": "backbone-24-MiBs",
+      "policy": "static",
+      "mean": 14.61502780713669,
+      "mean_improvement_pct": 0,
+      "mean_reconfigurations": 0,
+      "before_mean": 14.61502780713669
+    },
+    {
+      "group": "sensitivity",
+      "variant": "backbone-360-MiBs",
+      "policy": "cost",
+      "mean": 12.054138370289808,
+      "mean_improvement_pct": 17.52184837730815,
+      "mean_reconfigurations": 3,
+      "before_mean": 12.043734898067584
+    },
+    {
+      "group": "sensitivity",
+      "variant": "backbone-360-MiBs",
+      "policy": "demand",
+      "mean": 12.054138370289808,
+      "mean_improvement_pct": 17.52184837730815,
+      "mean_reconfigurations": 3,
+      "before_mean": 12.043734898067584
+    },
+    {
+      "group": "sensitivity",
+      "variant": "backbone-360-MiBs",
+      "policy": "static",
+      "mean": 14.614894886129742,
+      "mean_improvement_pct": 0,
+      "mean_reconfigurations": 0,
+      "before_mean": 14.614894886129742
+    },
+    {
+      "group": "sensitivity",
+      "variant": "backbone-90-MiBs",
+      "policy": "cost",
+      "mean": 12.850557000932154,
+      "mean_improvement_pct": 12.072634164695415,
+      "mean_reconfigurations": 3,
+      "before_mean": 12.837268126510859
+    },
+    {
+      "group": "sensitivity",
+      "variant": "backbone-90-MiBs",
+      "policy": "demand",
+      "mean": 12.850557000932154,
+      "mean_improvement_pct": 12.072634164695415,
+      "mean_reconfigurations": 3,
+      "before_mean": 12.837268126510859
+    },
+    {
+      "group": "sensitivity",
+      "variant": "backbone-90-MiBs",
+      "policy": "static",
+      "mean": 14.614923369202659,
+      "mean_improvement_pct": 0,
+      "mean_reconfigurations": 0,
+      "before_mean": 14.614923369202659
+    }
+  ]
+}

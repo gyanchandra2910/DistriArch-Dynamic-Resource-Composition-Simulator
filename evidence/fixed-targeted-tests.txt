@@ -1,0 +1,24 @@
+[PASS] regressions / reclaim memory for waiting app / demand
+[PASS] regressions / reclaim storage for waiting app / demand
+[PASS] regressions / reclaim memory for waiting app / cost
+[PASS] regressions / reclaim storage for waiting app / cost
+[PASS] regressions / static keeps its initial reservations when phase shrinks
+[PASS] regressions / release unused cores at a safe boundary
+[PASS] regressions / release unused accelerator without moving live pools
+[PASS] regressions / complete queue-free cost / same-pool growth
+[PASS] regressions / complete queue-free cost / migration without growth
+[PASS] regressions / complete queue-free cost / migration plus growth
+[PASS] regressions / complete queue-free cost / same-pool shrink
+[PASS] regressions / complete queue-free cost / migration plus shrink
+[PASS] regressions / executed plan matches analytic body / same-pool growth
+[PASS] regressions / executed plan matches analytic body / migration without growth
+[PASS] regressions / executed plan matches analytic body / migration plus growth
+[PASS] regressions / executed plan matches analytic body / same-pool shrink
+[PASS] regressions / executed plan matches analytic body / migration plus shrink
+[PASS] regressions / storage migration and preparation are in the shared plan
+[PASS] regressions / idealized transition estimate remains explicitly zero
+[PASS] regressions / composition record publishes at its exact event boundary
+[PASS] regressions / ownership and discovery publish at exact event boundaries
+[PASS] regressions / audit rejects a same-time publication shifted before commit
+[PASS] regressions / audit rejects discovery published at its preceding service event
+Native C++20 tests: 23 passed, 0 failed

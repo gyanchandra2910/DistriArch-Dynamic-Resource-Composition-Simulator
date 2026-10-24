@@ -1,0 +1,9 @@
+{
+  "name": "@reduxjs/toolkit",
+  "version": "2.13.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reduxjs/redux-toolkit.git"
+  }
+}

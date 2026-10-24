@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-24",
+  "platform": "Windows x64",
+  "extraction_integrity": "All packaged files matched their SHA-256 manifest",
+  "native_tests_passed": 57,
+  "http_cli_checks_passed": 25,
+  "concurrent_cli_status": "completed",
+  "completed_concurrent_jobs": 4,
+  "unfinished_concurrent_jobs": 0,
+  "runtime_path": "Windows and System32 only",
+  "python_required": false,
+  "node_required_to_run": false,
+  "compiler_required_to_run": false,
+  "node_used_only_as_http_test_driver": true,
+  "tested_payload_sha256": {
+    "build/distriarch.exe": "2c542a371f8728ec74d0072d58e2efc10daceacf55046a4722db6fb01f99dff4",
+    "build/distriarch_tests.exe": "3961519fc9f2f896b0166786b34619f2120dab51c93bef25ba06e25c0ad94909",
+    "frontend/dist/index.html": "70ed016420fa1dcef9194dd9b37c874bd61cf401ce4b90c3de4e92b9bfee0235",
+    "START_WINDOWS.bat": "93ac46a934ea160ab0905b419e797628fcc05d6ad0420e462652f56ff45fe005",
+    "RUN_TESTS_WINDOWS.bat": "346c49474010d7d7bea69312765e928a7bc295a6164c3c751613b513ecbcfe31"
+  }
+}

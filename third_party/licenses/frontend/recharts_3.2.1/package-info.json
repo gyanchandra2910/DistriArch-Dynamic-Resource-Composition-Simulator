@@ -1,0 +1,9 @@
+{
+  "name": "recharts",
+  "version": "3.2.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recharts/recharts.git"
+  }
+}

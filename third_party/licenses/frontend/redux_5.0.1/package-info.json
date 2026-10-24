@@ -1,0 +1,6 @@
+{
+  "name": "redux",
+  "version": "5.0.1",
+  "license": "MIT",
+  "repository": "github:reduxjs/redux"
+}

@@ -1,0 +1,6 @@
+{
+  "custom_rate": 777,
+  "observed_after_policy_change": 70,
+  "expected_policy": "static",
+  "old_behavior_failed": true
+}

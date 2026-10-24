@@ -1,0 +1,9 @@
+{
+  "name": "d3-scale",
+  "version": "4.0.2",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-scale.git"
+  }
+}

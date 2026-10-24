@@ -1,0 +1,9 @@
+{
+  "checked": "Generated configurations, all event/service/transfer records, ownership, transitions, jobs and summaries; serialization-only version/hash fields excluded",
+  "failures": [],
+  "implementation": "C++20",
+  "maximum_numeric_delta": 4.547473508864641e-13,
+  "passed": 81,
+  "reference_runs": 81,
+  "relative_tolerance": 1e-09
+}

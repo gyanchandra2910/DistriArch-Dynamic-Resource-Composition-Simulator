@@ -1,0 +1,66 @@
+[
+  {
+    "pool": "memory",
+    "policy": "demand",
+    "before": {
+      "a_finished": 12.362000076293945,
+      "b_first_start": 12.57500015258789,
+      "chunks": 3,
+      "audit_errors": []
+    },
+    "after": {
+      "a_finished": 12.362600133514405,
+      "b_first_start": 2.5704001907348633,
+      "chunks": 3,
+      "audit_errors": []
+    }
+  },
+  {
+    "pool": "memory",
+    "policy": "cost",
+    "before": {
+      "a_finished": 12.362000076293945,
+      "b_first_start": 12.57500015258789,
+      "chunks": 3,
+      "audit_errors": []
+    },
+    "after": {
+      "a_finished": 12.362600133514405,
+      "b_first_start": 2.5704001907348633,
+      "chunks": 3,
+      "audit_errors": []
+    }
+  },
+  {
+    "pool": "storage",
+    "policy": "demand",
+    "before": {
+      "a_finished": 12.122000076293945,
+      "b_first_start": 12.215000152587885,
+      "chunks": 3,
+      "audit_errors": []
+    },
+    "after": {
+      "a_finished": 12.122600133514403,
+      "b_first_start": 2.210400190734864,
+      "chunks": 3,
+      "audit_errors": []
+    }
+  },
+  {
+    "pool": "storage",
+    "policy": "cost",
+    "before": {
+      "a_finished": 12.122000076293945,
+      "b_first_start": 12.215000152587885,
+      "chunks": 3,
+      "audit_errors": []
+    },
+    "after": {
+      "a_finished": 12.122600133514403,
+      "b_first_start": 2.210400190734864,
+      "chunks": 3,
+      "audit_errors": []
+    }
+  }
+]

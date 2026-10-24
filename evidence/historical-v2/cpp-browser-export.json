@@ -1,0 +1,8 @@
+{
+  "implementation": "C++20",
+  "exact_cli_equality": true,
+  "events": 317,
+  "makespan": 12.305824001965552,
+  "completed_chunks": 20,
+  "version": 2
+}

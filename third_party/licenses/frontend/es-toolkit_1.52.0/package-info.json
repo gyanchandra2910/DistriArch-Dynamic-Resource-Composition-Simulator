@@ -1,0 +1,9 @@
+{
+  "name": "es-toolkit",
+  "version": "1.52.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toss/es-toolkit.git"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "name": "shrink-memory",
+  "description": "Regression: release dead memory capacity for a waiting application",
+  "policy": "demand",
+  "seed": 11,
+  "horizon": 100,
+  "max_events": 100000,
+  "resources": [
+    {
+      "id": "c",
+      "kind": "compute",
+      "capacity": 8,
+      "rate": 100
+    },
+    {
+      "id": "m",
+      "kind": "memory",
+      "capacity": 104857600,
+      "rate": 1048576000
+    },
+    {
+      "id": "s",
+      "kind": "storage",
+      "capacity": 524288000,
+      "rate": 1048576000
+    },
+    {
+      "id": "a",
+      "kind": "accelerator",
+      "capacity": 1,
+      "rate": 200,
+      "capability": "tensor"
+    }
+  ],
+  "links": [
+    {
+      "id": "l-c",
+      "a": "c",
+      "b": "switch",
+      "bandwidth": 1048576000,
+      "latency": 0.0001
+    },
+    {
+      "id": "l-m",
+      "a": "m",
+      "b": "switch",
+      "bandwidth": 1048576000,
+      "latency": 0.0001
+    },
+    {
+      "id": "l-s",
+      "a": "s",
+      "b": "switch",
+      "bandwidth": 1048576000,
+      "latency": 0.0001
+    },
+    {
+      "id": "l-a",
+      "a": "a",
+      "b": "switch",
+      "bandwidth": 1048576000,
+      "latency": 0.0001
+    },
+    {
+      "id": "l-manager",
+      "a": "manager",
+      "b": "switch",
+      "bandwidth": 1048576000,
+      "latency": 0.0001
+    }
+  ],
+  "workloads": [
+    {
+      "id": "A",
+      "name": "Shrinking owner",
+      "arrival": 0,
+      "phases": [
+        {
+          "name": "large",
+          "chunks": 1,
+          "cpu": 800,
+          "accelerator": 0,
+          "memory": 0,
+          "read": 0,
+          "write": 0,
+          "acc_input": 0,
+          "acc_output": 0,
+          "working_set": 83886080,
+          "storage_size": 20971520,
+          "capability": "tensor"
+        },
+        {
+          "name": "small",
+          "chunks": 1,
+          "cpu": 4000,
+          "accelerator": 0,
+          "memory": 0,
+          "read": 0,
+          "write": 0,
+          "acc_input": 0,
+          "acc_output": 0,
+          "working_set": 20971520,
+          "storage_size": 20971520,
+          "capability": "tensor"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Waiting request",
+      "arrival": 2,
+      "phases": [
+        {
+          "name": "waiting",
+          "chunks": 1,
+          "cpu": 100,
+          "accelerator": 0,
+          "memory": 0,
+          "read": 0,
+          "write": 0,
+          "acc_input": 0,
+          "acc_output": 0,
+          "working_set": 52428800,
+          "storage_size": 20971520,
+          "capability": "tensor"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "control_bytes": 10,
+    "registration": 0.005,
+    "decision": 0.007,
+    "preparation": 0.05
+  }
+}

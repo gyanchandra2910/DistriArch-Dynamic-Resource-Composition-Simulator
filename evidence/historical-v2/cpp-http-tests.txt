@@ -1,0 +1,26 @@
+[PASS] HTTP / health identifies native C++20
+[PASS] HTTP / five scenarios
+[PASS] HTTP / unsigned seed and selected scenario
+[PASS] HTTP / /api/config/unknown returns 404
+[PASS] HTTP / /api/config/phases?seed=-1 returns 422
+[PASS] HTTP / /api/config/phases?seed=4294967296 returns 422
+[PASS] HTTP / /api/config/phases?seed=oops returns 422
+[PASS] HTTP / /api/not-a-route returns 404
+[PASS] HTTP / validate preserves typed config
+[PASS] HTTP / reject unknown fields
+[PASS] HTTP / reject fractional seed
+[PASS] HTTP / reject bad input
+[PASS] HTTP / malformed JSON returns 422
+[PASS] HTTP / actual HTTP result equals full native CLI trace
+[PASS] HTTP / native trace complete and conserves work
+[PASS] HTTP / actual HTTP deterministic replay
+[PASS] HTTP / three matched policies
+[PASS] HTTP / comparison static equals CLI
+[PASS] HTTP / comparison demand equals CLI
+[PASS] HTTP / comparison cost equals CLI
+[PASS] HTTP / 81 C++ experiments served
+[PASS] HTTP / production React HTML served by C++
+[PASS] HTTP / production JavaScript asset served
+[PASS] HTTP / native CLI rejects unknown option
+[PASS] HTTP / standalone EXE with compiler/Node/Python absent from PATH
+Native HTTP/CLI integration: 25 passed, 0 failed

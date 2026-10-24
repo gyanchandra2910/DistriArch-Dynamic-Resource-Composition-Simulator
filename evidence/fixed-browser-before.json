@@ -1,0 +1,10 @@
+{
+  "policy": {
+    "failed": true,
+    "message": "policy-only changes must preserve every custom input\n+ actual - expected\n... Skipped lines\n\n  {\n    description: 'One application moves from CPU to memory, storage and tensor work.',\n    horizon: 240,\n    links: [\n      {\n...\n        id: 'edge-cpu-a',\n+       latency: 0.0008\n-       latency: 0.00123\n      },\n      {\n        a: 'cpu-b',\n        b: 'rack-b',\n        bandwidth: 524288000,\n...\n        kind: 'compute',\n+       rate: 70\n-       rate: 777\n      },\n      {\n        available_at: 0,\n        capability: 'general',\n        capacity: 8,\n...\n      control_bytes: 512,\n+     cooldown: 1.5,\n-     cooldown: 2.25,\n      decision: 0.004,\n      idealized_zero_reconfiguration: false,\n      interval: 0.8,\n      minimum_benefit: 0.04,\n      overhead_margin: 1.2,\n"
+  },
+  "boundary": {
+    "failed": true,
+    "message": "composition cannot appear before its commit event\n\n1 !== 0\n"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "implementation": "C++20",
+  "output": "results",
+  "runs": 81
+}

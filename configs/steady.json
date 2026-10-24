@@ -1,0 +1,180 @@
+{
+  "description": "A stable compute stream: adaptation has little useful work to do.",
+  "horizon": 240.0,
+  "links": [
+    {
+      "a": "cpu-a",
+      "b": "rack-a",
+      "bandwidth": 524288000.0,
+      "id": "edge-cpu-a",
+      "latency": 0.0008
+    },
+    {
+      "a": "cpu-b",
+      "b": "rack-b",
+      "bandwidth": 524288000.0,
+      "id": "edge-cpu-b",
+      "latency": 0.0008
+    },
+    {
+      "a": "mem-a",
+      "b": "rack-a",
+      "bandwidth": 524288000.0,
+      "id": "edge-mem-a",
+      "latency": 0.0008
+    },
+    {
+      "a": "mem-b",
+      "b": "rack-b",
+      "bandwidth": 524288000.0,
+      "id": "edge-mem-b",
+      "latency": 0.0008
+    },
+    {
+      "a": "store-a",
+      "b": "rack-a",
+      "bandwidth": 524288000.0,
+      "id": "edge-store-a",
+      "latency": 0.0008
+    },
+    {
+      "a": "store-b",
+      "b": "rack-b",
+      "bandwidth": 524288000.0,
+      "id": "edge-store-b",
+      "latency": 0.0008
+    },
+    {
+      "a": "acc-a",
+      "b": "rack-a",
+      "bandwidth": 524288000.0,
+      "id": "edge-acc-a",
+      "latency": 0.0008
+    },
+    {
+      "a": "acc-b",
+      "b": "rack-b",
+      "bandwidth": 524288000.0,
+      "id": "edge-acc-b",
+      "latency": 0.0008
+    },
+    {
+      "a": "manager",
+      "b": "rack-a",
+      "bandwidth": 524288000.0,
+      "id": "management",
+      "latency": 0.0008
+    },
+    {
+      "a": "rack-a",
+      "b": "rack-b",
+      "bandwidth": 188743680.0,
+      "id": "backbone",
+      "latency": 0.003
+    }
+  ],
+  "max_events": 100000,
+  "name": "steady",
+  "policy": "cost",
+  "resources": [
+    {
+      "available_at": 0.0,
+      "capability": "general",
+      "capacity": 4,
+      "id": "cpu-a",
+      "kind": "compute",
+      "rate": 70.0
+    },
+    {
+      "available_at": 0.0,
+      "capability": "general",
+      "capacity": 8,
+      "id": "cpu-b",
+      "kind": "compute",
+      "rate": 150.0
+    },
+    {
+      "available_at": 0.0,
+      "capability": "general",
+      "capacity": 536870912,
+      "id": "mem-a",
+      "kind": "memory",
+      "rate": 1258291200.0
+    },
+    {
+      "available_at": 0.0,
+      "capability": "general",
+      "capacity": 805306368,
+      "id": "mem-b",
+      "kind": "memory",
+      "rate": 293601280.0
+    },
+    {
+      "available_at": 0.0,
+      "capability": "general",
+      "capacity": 4294967296,
+      "id": "store-a",
+      "kind": "storage",
+      "rate": 94371840.0
+    },
+    {
+      "available_at": 0.0,
+      "capability": "general",
+      "capacity": 8589934592,
+      "id": "store-b",
+      "kind": "storage",
+      "rate": 681574400.0
+    },
+    {
+      "available_at": 0.0,
+      "capability": "tensor",
+      "capacity": 1,
+      "id": "acc-a",
+      "kind": "accelerator",
+      "rate": 1000.0
+    },
+    {
+      "available_at": 2.5,
+      "capability": "tensor",
+      "capacity": 1,
+      "id": "acc-b",
+      "kind": "accelerator",
+      "rate": 1800.0
+    }
+  ],
+  "seed": 11,
+  "settings": {
+    "control_bytes": 512,
+    "cooldown": 1.5,
+    "decision": 0.004,
+    "idealized_zero_reconfiguration": false,
+    "interval": 0.8,
+    "minimum_benefit": 0.04,
+    "overhead_margin": 1.2,
+    "preparation": 0.035,
+    "registration": 0.002
+  },
+  "workloads": [
+    {
+      "arrival": 0.05,
+      "id": "app-1",
+      "name": "Vector analysis",
+      "phases": [
+        {
+          "acc_input": 0,
+          "acc_output": 0,
+          "accelerator": 0.0,
+          "capability": "tensor",
+          "chunks": 12,
+          "cpu": 415.999882,
+          "memory": 2097152,
+          "name": "Compute",
+          "read": 1048576,
+          "storage_size": 67108864,
+          "working_set": 50331648,
+          "write": 1048576
+        }
+      ]
+    }
+  ]
+}

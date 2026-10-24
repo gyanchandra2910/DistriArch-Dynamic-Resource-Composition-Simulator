@@ -1,0 +1,32 @@
+[PASS] model / CPU duration and core lanes
+[PASS] model / two-hop transfer and byte-hops
+[PASS] model / shared link FIFO contention
+[PASS] model / storage service queue
+[PASS] model / ownership discovery capacity release reuse
+[PASS] model / accelerator transfer execution and release
+[PASS] model / registration network and manager cost
+[PASS] model / telemetry and decision cost
+[PASS] model / equal costs retain unused storage
+[PASS] model / live memory retained until migration commit
+[PASS] model / stable simultaneous insertion order
+[PASS] model / reject zero service rate
+[PASS] model / reject nonfinite rate
+[PASS] model / reject negative link bandwidth
+[PASS] model / reject unknown field
+[PASS] model / reject duplicate ID
+[PASS] model / reject disconnected resource
+[PASS] model / reject zero chunks
+[PASS] model / reject fractional chunks
+[PASS] model / reject negative seed
+[PASS] model / reject invalid policy
+[PASS] model / reject invalid ablation flag
+[PASS] model / infeasible capacity explicitly stalls
+[PASS] model / live capacity deadlock reported
+[PASS] model / horizon clips unfinished transfers
+[PASS] model / utilization denominators by hand
+[PASS] model / growth moves bytes under demand
+[PASS] model / growth moves bytes under cost
+[PASS] model / static larger phase fails honestly
+[PASS] model / zero-work chunks are bounded events
+[PASS] model / invalid low-level demands rejected
+Native C++20 tests: 31 passed, 0 failed

@@ -1,0 +1,16 @@
+[FAIL] regressions / reclaim memory for waiting app / demand: B must start using reclaimed capacity before A finishes
+[FAIL] regressions / reclaim storage for waiting app / demand: B must start using reclaimed capacity before A finishes
+[FAIL] regressions / reclaim memory for waiting app / cost: B must start using reclaimed capacity before A finishes
+[FAIL] regressions / reclaim storage for waiting app / cost: B must start using reclaimed capacity before A finishes
+[PASS] regressions / static keeps its initial reservations when phase shrinks
+[FAIL] regressions / release unused cores at a safe boundary: idle phase must not retain four unused cores
+[FAIL] regressions / release unused accelerator without moving live pools: non-accelerator phase must release the unused device
+[FAIL] regressions / complete queue-free cost / same-pool growth: expected 3.007240, got 2.007240
+[PASS] regressions / complete queue-free cost / migration without growth
+[FAIL] regressions / complete queue-free cost / migration plus growth: expected 5.007440, got 2.007240
+[PASS] regressions / complete queue-free cost / same-pool shrink
+[PASS] regressions / complete queue-free cost / migration plus shrink
+[PASS] regressions / idealized transition estimate remains explicitly zero
+[FAIL] regressions / composition record publishes at its exact event boundary: composition needs authoritative event_index
+Native C++20 tests: 5 passed, 10 failed
+[FAIL] regressions / ownership and discovery publish at exact event boundaries: ownership needs authoritative event_index

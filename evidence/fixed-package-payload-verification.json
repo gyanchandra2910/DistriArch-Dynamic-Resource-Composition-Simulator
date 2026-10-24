@@ -1,0 +1,49 @@
+{
+  "zip": "C:\\Users\\91995\\Desktop\\CA Lab\\Distriubted_Project\\tmp\\DistriArch_Fixed_Candidate.zip",
+  "zip_sha256": "82614232044d472042253643e7eb8ad5f05feed7dbbbfa440cf9f9b64e9be345",
+  "extracted": "C:\\Users\\91995\\Desktop\\CA Lab\\Distriubted_Project\\tmp\\fixed-zip-check-729723328ce74430af6687fc00ab9f1f\\DistriArch_CPP",
+  "verified_files": 280,
+  "manifest_errors": 0,
+  "forbidden_files": 0,
+  "native_tests_passed": 80,
+  "replay_tests_passed": 10,
+  "http_cli_checks_passed": 25,
+  "launcher": "START_WINDOWS.bat",
+  "launcher_started": true,
+  "health": {
+    "implementation": "C++20",
+    "model": "synthetic discrete-event architectural simulation",
+    "status": "ok",
+    "trace_schema": "event-boundaries-v1",
+    "version": "3.0.0"
+  },
+  "dashboard_loaded": true,
+  "bundle_loaded": true,
+  "completed_run": "completed",
+  "comparison_policies": 3,
+  "shrink_fixtures": [
+    {
+      "fixture": "shrink-memory-cost.json",
+      "b_first_start": 2.5704001907348633,
+      "a_finished": 12.362600133514405
+    },
+    {
+      "fixture": "shrink-memory-demand.json",
+      "b_first_start": 2.5704001907348633,
+      "a_finished": 12.362600133514405
+    },
+    {
+      "fixture": "shrink-storage-cost.json",
+      "b_first_start": 2.210400190734864,
+      "a_finished": 12.122600133514403
+    },
+    {
+      "fixture": "shrink-storage-demand.json",
+      "b_first_start": 2.210400190734864,
+      "a_finished": 12.122600133514403
+    }
+  ],
+  "path": "Windows/System32 only; Node invoked absolutely as test driver",
+  "exe_sha256": "5a742d418aff64eab18c586da99a4e202a628cc85f422484efbbb32877bf2f93",
+  "frontend_index_sha256": "37e19019d645a0609cc46615e92d37d0a103f8565374bf353a7e3136dd82d23b"
+}

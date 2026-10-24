@@ -1,0 +1,9 @@
+{
+  "name": "d3-format",
+  "version": "3.1.2",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-format.git"
+  }
+}

@@ -1,0 +1,15 @@
+DistriArch - native C++20 architectural simulator
+  distriarch run [--scenario phases] [--policy cost] [--seed 11] [--config file.json] [--output trace.json.gz]
+  distriarch config [--scenario phases] [--seed 11] --output config.json
+  distriarch experiments [--output results]
+  distriarch audit trace.json[.gz]
+  distriarch verify-reference --directory saved-results [--output report.json]
+  distriarch serve [--root .] [--port 8000]
+g++.exe (Rev3, Built by MSYS2 project) 16.2.0
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+	DLL Name: KERNEL32.dll
+	DLL Name: msvcrt.dll
+	DLL Name: WS2_32.dll

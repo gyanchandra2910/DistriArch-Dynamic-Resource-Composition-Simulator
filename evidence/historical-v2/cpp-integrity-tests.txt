@@ -1,0 +1,27 @@
+[PASS] integrity / steady/static completes and conserves
+[PASS] integrity / steady/demand completes and conserves
+[PASS] integrity / steady/cost completes and conserves
+[PASS] integrity / phases/static completes and conserves
+[PASS] integrity / phases/demand completes and conserves
+[PASS] integrity / phases/cost completes and conserves
+[PASS] integrity / concurrent/static completes and conserves
+[PASS] integrity / concurrent/demand completes and conserves
+[PASS] integrity / concurrent/cost completes and conserves
+[PASS] integrity / constrained/static completes and conserves
+[PASS] integrity / constrained/demand completes and conserves
+[PASS] integrity / constrained/cost completes and conserves
+[PASS] integrity / expensive/static completes and conserves
+[PASS] integrity / expensive/demand completes and conserves
+[PASS] integrity / expensive/cost completes and conserves
+[PASS] integrity / exact deterministic replay and input immutability
+[PASS] integrity / policies share work hardware and chunk count
+[PASS] integrity / useful changes and uneconomic rejection
+[PASS] integrity / future phases and arrivals do not leak
+[PASS] integrity / late discovery and endpoint reuse
+[PASS] integrity / JSON and gzip round trip
+[PASS] integrity / corrupt summary is detected
+[PASS] integrity / corrupt ownership is detected
+[PASS] integrity / explicit event budget
+[PASS] integrity / 81 saved runs reconcile with matched baselines
+[PASS] integrity / ablation changes only explicit setting
+Native C++20 tests: 26 passed, 0 failed

@@ -1,0 +1,89 @@
+{
+  "implementation": "C++20",
+  "output": "results",
+  "runs": 81
+}
+[PASS] model / CPU duration and core lanes
+[PASS] model / two-hop transfer and byte-hops
+[PASS] model / shared link FIFO contention
+[PASS] model / storage service queue
+[PASS] model / ownership discovery capacity release reuse
+[PASS] model / accelerator transfer execution and release
+[PASS] model / registration network and manager cost
+[PASS] model / telemetry and decision cost
+[PASS] model / equal costs retain unused storage
+[PASS] model / live memory retained until migration commit
+[PASS] model / stable simultaneous insertion order
+[PASS] model / reject zero service rate
+[PASS] model / reject nonfinite rate
+[PASS] model / reject negative link bandwidth
+[PASS] model / reject unknown field
+[PASS] model / reject duplicate ID
+[PASS] model / reject disconnected resource
+[PASS] model / reject zero chunks
+[PASS] model / reject fractional chunks
+[PASS] model / reject negative seed
+[PASS] model / reject invalid policy
+[PASS] model / reject invalid ablation flag
+[PASS] model / infeasible capacity explicitly stalls
+[PASS] model / live capacity deadlock reported
+[PASS] model / horizon clips unfinished transfers
+[PASS] model / utilization denominators by hand
+[PASS] model / growth moves bytes under demand
+[PASS] model / growth moves bytes under cost
+[PASS] model / static larger phase fails honestly
+[PASS] model / zero-work chunks are bounded events
+[PASS] model / invalid low-level demands rejected
+[PASS] integrity / steady/static completes and conserves
+[PASS] integrity / steady/demand completes and conserves
+[PASS] integrity / steady/cost completes and conserves
+[PASS] integrity / phases/static completes and conserves
+[PASS] integrity / phases/demand completes and conserves
+[PASS] integrity / phases/cost completes and conserves
+[PASS] integrity / concurrent/static completes and conserves
+[PASS] integrity / concurrent/demand completes and conserves
+[PASS] integrity / concurrent/cost completes and conserves
+[PASS] integrity / constrained/static completes and conserves
+[PASS] integrity / constrained/demand completes and conserves
+[PASS] integrity / constrained/cost completes and conserves
+[PASS] integrity / expensive/static completes and conserves
+[PASS] integrity / expensive/demand completes and conserves
+[PASS] integrity / expensive/cost completes and conserves
+[PASS] integrity / exact deterministic replay and input immutability
+[PASS] integrity / policies share work hardware and chunk count
+[PASS] integrity / useful changes and uneconomic rejection
+[PASS] integrity / future phases and arrivals do not leak
+[PASS] integrity / late discovery and endpoint reuse
+[PASS] integrity / JSON and gzip round trip
+[PASS] integrity / corrupt summary is detected
+[PASS] integrity / corrupt ownership is detected
+[PASS] integrity / explicit event budget
+[PASS] integrity / 81 saved runs reconcile with matched baselines
+[PASS] integrity / ablation changes only explicit setting
+Native C++20 tests: 57 passed, 0 failed
+[PASS] HTTP / health identifies native C++20
+[PASS] HTTP / five scenarios
+[PASS] HTTP / unsigned seed and selected scenario
+[PASS] HTTP / /api/config/unknown returns 404
+[PASS] HTTP / /api/config/phases?seed=-1 returns 422
+[PASS] HTTP / /api/config/phases?seed=4294967296 returns 422
+[PASS] HTTP / /api/config/phases?seed=oops returns 422
+[PASS] HTTP / /api/not-a-route returns 404
+[PASS] HTTP / validate preserves typed config
+[PASS] HTTP / reject unknown fields
+[PASS] HTTP / reject fractional seed
+[PASS] HTTP / reject bad input
+[PASS] HTTP / malformed JSON returns 422
+[PASS] HTTP / actual HTTP result equals full native CLI trace
+[PASS] HTTP / native trace complete and conserves work
+[PASS] HTTP / actual HTTP deterministic replay
+[PASS] HTTP / three matched policies
+[PASS] HTTP / comparison static equals CLI
+[PASS] HTTP / comparison demand equals CLI
+[PASS] HTTP / comparison cost equals CLI
+[PASS] HTTP / 81 C++ experiments served
+[PASS] HTTP / production React HTML served by C++
+[PASS] HTTP / production JavaScript asset served
+[PASS] HTTP / native CLI rejects unknown option
+[PASS] HTTP / standalone EXE with compiler/Node/Python absent from PATH
+Native HTTP/CLI integration: 25 passed, 0 failed

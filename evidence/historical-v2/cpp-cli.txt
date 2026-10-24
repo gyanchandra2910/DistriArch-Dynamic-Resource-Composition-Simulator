@@ -1,0 +1,11 @@
+{
+  "audit_errors": [],
+  "completed": 1,
+  "implementation": "C++20",
+  "makespan": 12.305824001965552,
+  "policy": "cost",
+  "reconfigurations": 3,
+  "scenario": "phases",
+  "status": "completed",
+  "unfinished": 0
+}

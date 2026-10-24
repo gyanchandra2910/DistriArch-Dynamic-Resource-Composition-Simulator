@@ -1,0 +1,9 @@
+{
+  "name": "d3-time-format",
+  "version": "4.1.0",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-time-format.git"
+  }
+}

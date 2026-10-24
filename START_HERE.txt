@@ -1,0 +1,69 @@
+DISTRIARCH - COMPLETE C++20 PROJECT - FIXED v3
+=================================
+Gyan Chandra - CS23I1053
+Option 2: Distributed Computer Architecture
+
+GITHUB SOURCE CHECKOUT (WINDOWS)
+The GitHub repository includes source and experiment data. Native binaries
+and frontend/dist are generated locally and excluded from Git.
+Install a C++20 GCC compiler with zlib, PowerShell, Node.js 22.12+ and
+pnpm 11.25.0. Open PowerShell in this folder and run:
+  .\launch.ps1 -Setup
+Then open http://127.0.0.1:8000. See README.md for full prerequisites.
+Subsequent launches: .\launch.ps1
+To create the offline ZIP after building: .\package.ps1
+
+READY-TO-RUN ZIP (WINDOWS 10/11, 64-BIT)
+1. Extract the entire ZIP. Do not run files from inside the ZIP viewer.
+2. Open the extracted DistriArch_CPP folder.
+3. Double-click START_WINDOWS.bat and keep its console window open.
+4. Open http://127.0.0.1:8000 in any modern browser.
+5. Click Run simulation. Use Experiments to inspect all 81 saved runs.
+
+No Python, Node.js, compiler, installation or internet is required to run
+the included Windows executable and built dashboard. Stop with Ctrl+C
+or by closing its console window.
+
+If port 8000 is busy, use a terminal in this folder:
+  build\distriarch.exe serve --root . --port 8010
+Then open http://127.0.0.1:8010.
+
+NATIVE CLI AND TESTS
+  build\distriarch.exe run --scenario phases --policy cost --seed 11
+  build\distriarch_tests.exe --all
+  build\distriarch.exe experiments --output results
+  build\distriarch.exe audit results\traces\main-phases-11-cost.json.gz
+Double-click RUN_TESTS_WINDOWS.bat to execute the 80 native tests.
+
+WHAT THE GENERATED ZIP INCLUDES
+- Native Windows executable and test executable, statically linked.
+- Full C++20 source and headers; CMake and PowerShell build scripts.
+- Full React/TypeScript dashboard source, pinned dependency lockfile
+  and already built production dashboard in frontend/dist.
+- All five configurations, 81 experiment traces, JSON/CSV summaries
+  and the comparison plot.
+- Original ProjectStatements.pdf, README, API contract, verification
+  records, genuine dashboard screenshots and dependency licenses.
+- PACKAGE_MANIFEST.json: SHA-256 and size of every packaged file.
+
+REBUILDING / OTHER OPERATING SYSTEMS
+The included .exe files are for 64-bit Windows, not Linux/macOS.
+The C++ source is included for rebuilding on another platform.
+Windows: see build.ps1 (C++20 GCC + zlib).
+CMake: see CMakeLists.txt and README (C++20 compiler + zlib + CMake).
+Rebuilding the dashboard requires Node.js 22.12+ and pnpm 11.25.0;
+running the supplied production dashboard does not.
+Windows/GCC is the verified platform. Other-platform builds were not
+executed in this environment.
+
+PACKAGING NOTES
+The superseded Python implementation/environment, temporary files,
+node_modules, compiler object files and caches are intentionally omitted.
+All active project source and runnable outputs are included. The migration
+parity report is retained; the retired reference runtime is not needed.
+To regenerate this ZIP from the complete project: .\package.ps1
+
+This is a synthetic architectural simulator, not hardware measurements.
+
+FIXED RELEASE: DistriArch_CPP_Complete_Fixed.zip
+Includes the four reviewed corrections and trace schema v3. See QA.md.

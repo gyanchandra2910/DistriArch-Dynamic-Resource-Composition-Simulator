@@ -1,0 +1,18 @@
+✔ before/after commit at the same timestamp, forward and backward (1.6631ms)
+✔ discovery does not become visible at the preceding service completion (0.7721ms)
+✔ release is atomic at its event, including all reservation rows (0.8302ms)
+✔ every event boundary agrees with independently replayed event publications (81.589ms)
+✔ a completing interval remains active until its own same-time completion event (0.3201ms)
+✔ a new CPU request at commit time stays hidden until it is submitted (0.2323ms)
+✔ future phases, requests, transitions and physical online events stay hidden (0.3434ms)
+✔ pause/speed do not alter projections or original final evidence (4.6269ms)
+✔ policy-only changes preserve every custom field and do not mutate the input (0.6263ms)
+✔ superseded request tickets stay invalid even when abort is ignored (0.3165ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 235.2484

@@ -1,0 +1,25 @@
+src/model.cpp: In function 'distriarch::Configuration distriarch::parse_config(const Json&)':
+src/model.cpp:134:63: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+  134 |     for (const auto& r:array_field(j,"resources",4,24,"config")) {
+      |                                                               ^
+src/model.cpp:134:38: note: 'const std::string' {aka 'const std::__cxx11::basic_string<char>'} temporary created here
+  134 |     for (const auto& r:array_field(j,"resources",4,24,"config")) {
+      |                                      ^~~~~~~~~~~
+src/model.cpp:151:59: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+  151 |     for (const auto& l:array_field(j,"links",1,60,"config")) {
+      |                                                           ^
+src/model.cpp:151:38: note: 'const std::string' {aka 'const std::__cxx11::basic_string<char>'} temporary created here
+  151 |     for (const auto& l:array_field(j,"links",1,60,"config")) {
+      |                                      ^~~~~~~
+src/model.cpp:164:63: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+  164 |     for (const auto& w:array_field(j,"workloads",1,16,"config")) {
+      |                                                               ^
+src/model.cpp:164:38: note: 'const std::string' {aka 'const std::__cxx11::basic_string<char>'} temporary created here
+  164 |     for (const auto& w:array_field(j,"workloads",1,16,"config")) {
+      |                                      ^~~~~~~~~~~
+src/model.cpp:170:66: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+  170 |         for (const auto& p:array_field(w,"phases",1,12,"workload")) {
+      |                                                                  ^
+src/model.cpp:170:42: note: 'const std::string' {aka 'const std::__cxx11::basic_string<char>'} temporary created here
+  170 |         for (const auto& p:array_field(w,"phases",1,12,"workload")) {
+      |                                          ^~~~~~~~
